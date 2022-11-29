@@ -131,6 +131,12 @@
         </div>
     </div>
 </div>
+<div class="pop_policy">
+    <div class="policy_sd"></div>
+    <div class="pop_policy_wrap">
+        <div class="pop_body"><img src="resources/img/policy_img.png"><button type="button" class="policy_check"></button></div>
+    </div>
+</div>
 <script src="resources/js/jquery.min.js"></script>
 <script src="resources/js/owl.carousel.min.js"></script>
 <script>
@@ -158,7 +164,18 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     items:1
 })
-// $(document).ready(function() {
+$(document).ready(function() {
+    $('.policy_check').click(function() {
+    $('.pop_policy').removeClass('on');
+    $('body').css("overflow","auto");
+});
+
+$('.more_view').click(function() {
+    $('.pop_policy').addClass('on');
+    $('body').css("overflow","hidden");
+});
+
+});
 
 // const myAudio = $('#myAudio'); // Audio객체 취득
 
@@ -214,7 +231,6 @@ $('.owl-carousel').owlCarousel({
 //     $('.nav_btn').removeClass('active');
 //     $('.main_nav_m').removeClass('active');
 //         $('body').css("overflow","auto");
-// });
 
 </script>
 </body>

@@ -8,7 +8,7 @@ input,button {font-family:'Pretendard';}
 /* Scrollbar Style */
 ::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2);background-color:#F5F5F5;}
 ::-webkit-scrollbar{width:5px;background-color:#F5F5F5;}
-::-webkit-scrollbar-thumb{background-color:#156fb9;border-radius:0;}
+::-webkit-scrollbar-thumb{background-color:#ac030b;border-radius:0;}
 
 .wrap {position:relative;width:100%;min-height:100vh;}
 
@@ -98,6 +98,13 @@ input,button {font-family:'Pretendard';}
 .main_letter .letter_area .letter_tt {font-size:30px;margin-bottom:30px;}
 .main_letter .letter_area p {margin:0;font-size: 23px;line-height:35px;font-weight:300;}
 
+.pop_policy {position:fixed;top:0;left:0;right:0;bottom:0;display:none;justify-content:center;align-items:center;background-color:rgba(0,0,0,0.7);z-index:10;}
+.pop_policy.on {display:flex;}
+.pop_policy_wrap {position:relative;width:735px;height:100%;max-height:90vh;overflow-x:hidden;overflow-y:auto;box-sizing:border-box;background:url(../img/bg_policy.png) 0 0 no-repeat;box-shadow:0 0 15px 5px #000;}
+.pop_policy_wrap .pop_body {font-size:0;}
+.pop_policy_wrap .pop_body .policy_check {position:absolute;top: 720px;left: 230px;width: 275px;height: 60px;padding: 0;border:0 none;background-color:transparent;cursor:pointer;}
+/* padding:90px 0 0 36px; */
+.pop_policy .policy_sd {position:absolute;bottom: 12vh;left:50%;margin-left: 190px;width:303px;height:368px;background:url(../img/policy_sd.png) 0 0 no-repeat;z-index:11;}
 
 @media (max-width:1024px) {
   .main_nav,

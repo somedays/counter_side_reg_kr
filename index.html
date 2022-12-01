@@ -15,11 +15,9 @@
             <div class="main_visual_ctn">
                 <div class="visual_logo"><img src="resources/img/main_visual_logo.png"></div>
                 <div class="visual_ctns">
-                    <div><img src="resources/img/main_visual_date.png"></div>
-                    <div><img src="resources/img/main_visual_tt.png"></div>
-                    <div class="visual_text"><span>개발사</span><strong>직접 서비스 기념</strong><span>이벤트</span></div>
+                    <div class="visual_text"><img src="resources/img/main_visual_date.png"></div>
                     <div class="visual_tt"><img src="resources/img/main_visual_text.png"><a href="#"><img src="resources/img/main_visual_media.png"></a></div>
-                    <div><a href="#Form"><img src="resources/img/main_visual_btn.png"></a></div>
+                    <div class="visual_btn"><a href="#Form"><img src="resources/img/main_visual_btn.png"></a></div>
                     <div class="visual_btns">
                         <a href=""><img src="resources/img/visaul_btn_steam.png" alt="PLAY ON STEAM"></a>
                         <a href=""><img src="resources/img/visaul_btn_google.png" alt="GIT IT ON Google Play"></a>
@@ -27,15 +25,17 @@
                     </div>
                 </div>
             </div>
-            <div class="visual_arrow">
+            <a href="#Form" class="visual_arrow">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
-            <div class="frame_area"></div>
-            <iframe src="https://www.youtube.com/embed/k26Pw2u0kxA?apm;autoplay=1&amp;playList=k26Pw2u0kxA&amp;loop=1&autoplay=1&mute=1&playsinline=1&controls=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
+            <div id="player"></div>
+            <!-- <div class="frame_area"></div>
+            <iframe src="https://www.youtube.com/embed/k26Pw2u0kxA?apm;autoplay=1&amp;playList=k26Pw2u0kxA&amp;loop=1&autoplay=1&mute=1&playsinline=1&controls=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
+        <div class="ctn_area"><img src="resources/img/m/visual_area.png"></div>
     </div>
     <div class="main_form" id="Form">
         <form>
@@ -53,57 +53,83 @@
                 <div class="agree_item"><input type="checkbox" id="agree_3"><label for="agree_3"><span>(선택) 광고성 SMS 수신동의</span></label></div>
             </div>
             <div class="form_btn">
-                <button type="submit"></button>
+                <button type="submit"><img src="resources/img/m/form_btn_area.png" class="form_btn_area"></button>
             </div>
         </form>
+        <div class="ctn_area"><img src="resources/img/m/form_area.png"></div>
     </div>
     <div class="main_reward" id="Reward">
         <div class="reward_complate">
-            <span class="complate"></span>
-            <span class="complate"></span>
-            <span class="complate"></span>
-            <span class="complate"></span>
-            <span></span>
-            <span></span>
+            <span class="complate"><img src="resources/img/m/reward_item_area.png" class="reward_item_area"></span>
+            <span class="complate"><img src="resources/img/m/reward_item_area.png" class="reward_item_area"></span>
+            <span class="complate"><img src="resources/img/m/reward_item_area.png" class="reward_item_area"></span>
+            <span class="complate"><img src="resources/img/m/reward_item_area.png" class="reward_item_area"></span>
+            <span class="complate"><img src="resources/img/m/reward_item_area.png" class="reward_item_area"></span>
+            <span class="complate"><img src="resources/img/m/reward_item_area.png" class="reward_item_area"></span>
         </div>
+        <div class="ctn_area"><img src="resources/img/m/reward_bg.png"></div>
     </div>
     <div class="main_event" id="Schedule">
         <div class="event_list">
-            <div class="event_item"><img src="resources/img/event_1.png"></div>
-            <div class="event_item"><img src="resources/img/event_2.png"></div>
-            <div class="event_item"><img src="resources/img/event_3.png"></div>
-            <div class="event_item"><img src="resources/img/event_4.png"></div>
+            <div class="event_item"><img src="resources/img/m/event_item_area.png" class="event_item_area"></div>
+            <div class="event_item off"><img src="resources/img/m/event_item_area.png" class="event_item_area"></div>
+            <div class="event_item off"><img src="resources/img/m/event_item_area.png" class="event_item_area"></div>
+            <div class="event_item off"><img src="resources/img/m/event_item_area.png" class="event_item_area"></div>
         </div>
+        <div class="ctn_area"><img src="resources/img/m/event_area.png"></div>
     </div>
     <div class="main_gallery" id="Intro">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel gallery_p">
             <div class="item"><img src="resources/img/gallery_1.png"></div>
             <div class="item"><img src="resources/img/gallery_2.png"></div>
             <div class="item"><img src="resources/img/gallery_3.png"></div>
             <div class="item"><img src="resources/img/gallery_4.png"></div>
-            <!-- <div class="item"><img src="resources/img/gallery_5.png"></div> -->
+            <div class="item"><img src="resources/img/gallery_5.png"></div>
+            <div class="item"><img src="resources/img/gallery_6.png"></div>
+            <div class="item"><img src="resources/img/gallery_7.png"></div>
+            <div class="item"><img src="resources/img/gallery_8.png"></div>
+            <div class="item"><img src="resources/img/gallery_9.png"></div>
+            <div class="item"><img src="resources/img/gallery_10.png"></div>
         </div>
+        <div class="owl-carousel gallery_m">
+            <div class="item"><img src="resources/img/m/gallery_1.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_2.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_3.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_4.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_5.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_6.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_7.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_8.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_9.png"></div>
+            <div class="item"><img src="resources/img/m/gallery_10.png"></div>
+        </div>
+        <div class="ctn_area"><img src="resources/img/m/gallery_area.png"></div>
     </div>
     <div class="main_letter" id="Letter">
         <div class="letter_area">
             <p class="letter_tt">경애하는 사장님들께</p>
-            <p>안녕하세요,</p>
-            <p>카운터사이드 총괄 PD 박상연입니다.</p>
-            <p>2023년 2월,</p>
-            <p>서비스 3주년을 기점으로 퍼블리싱 계약이 종료되고</p>
-            <p>직접 서비스로 전환됩니다.</p>
-            <p>이관 후 개발사에서 직접 운영하는 글로벌 앱에</p>
-            <p>한국 서버가 신설되며, 한국 서비스에서 이용하시던 계정을 이관하셔서</p>
-            <p>그대로 사용하실 수 있습니다.</p>
-            <p>사장님들 께서 아무 불편함 없이, </p>
-            <p>더욱 즐겁고 발전하는 카운터사이드를 즐기실 수 있도록</p>
-            <p>항상 최선을 다 하겠습니다.</p>
-            <p>글로벌 원년의 이름으로 다시 시작하는 카운터사이드와</p>
-            <p>앞으로도 함께 해 주시길 부탁드립니다.</p>
-            <p>감사합니다.</p>
+            <p>안녕하세요, 카운터사이드 총괄 PD 박상연 입니다.</p>
+            <p>2023년 2월 한국 서비스 3주년을 맞이하면서,</p>
+            <p>서비스사인 넥슨과의 퍼블리싱 계약이 종료되게 되는데요.</p>
+            <p>이후로는 개발사 스튜디오비사이드의 직접 서비스로 전환되게 </p>
+            <p>됩니다.</p>
             <p>&nbsp;</p>
-            <p>박상연 드림.</p>
+            <p>방대하고 다양한 스토리, 애니메이션, BGM, 그리고 캐릭터를 </p>
+            <p>이용한 다양한 연출과 다이나믹한 전투는 카운터사이드 만의 </p>
+            <p>매력이며 이관 후에도 아무런 영향이 없을 것입니다.</p>
+            <p>&nbsp;</p>
+            <p>2023년에도 변함 없이 그 동안 개발사가 쌓아 온 노하우와 게임에 </p>
+            <p>대한 애정을 아낌없이 쏟아, 기존보다 더 나은 게임 플레이 경험을 </p>
+            <p>드릴 것을 약속 드립니다.</p>
+            <p>글로벌 원년의 이름으로 다시 시작하는 카운터사이드와 앞으로도 </p>
+            <p>함께 해 주시기를 부탁드리며, 사장님들을 위해 준비한 </p>
+            <p>3주년 이벤트와 컨텐츠도 즐겨주세요!</p>
+            <p>&nbsp;</p>
+            <p>앞으로도 사장님들의 만족을 위해 최선을 다 하겠습니다.</p>
+            <p>&nbsp;</p>
+            <p>감사합니다.</p></p>
         </div>
+        <div class="ctn_area"><img src="resources/img/m/letter_area.png"></div>
     </div>
     <div class="main_nav">
         <div class="nav_logo"><a href="#Home"><img src="resources/img/gnb_logo.png" alt="MYTH X COUNTER SIDE"></a></div>
@@ -118,19 +144,22 @@
     </div>
     <div class="main_nav_m">
         <div class="nav_head">
-            <div class="nav_logo"><a href="#Home"><img src="resources/img/m/gnb_logo.webp" alt="MYTH X COUNTER SIDE"></a></div>
+            <div class="nav_logo"><a href="#Home"><img src="resources/img/m/logo_gnb.png" alt="MYTH X COUNTER SIDE"></a></div>
             <div class="nav_btn"></div>
         </div>
         <div class="nav_body">
             <div class="nav_items">
                 <a href="#Home">Home</a>
-                <a href="#Form">Pre-Register</a>
-                <a href="#Reward">Reward</a>
-                <a href="#Media">Media</a>
+                <a href="#Form" class="active">사전예약</a>
+                <a href="#Reward">달성보상</a>
+                <a href="#Schedule">스케줄</a>
+                <a href="#Intro">게임소개</a>
+                <a href="#Letter">개발자 편지</a>
             </div>
         </div>
     </div>
 </div>
+<a href="#Home" class="go_top"></a>
 <div class="pop_policy">
     <div class="policy_sd"></div>
     <div class="pop_policy_wrap">
@@ -139,6 +168,36 @@
 </div>
 <script src="resources/js/jquery.min.js"></script>
 <script src="resources/js/owl.carousel.min.js"></script>
+<script src="http://www.youtube.com/iframe_api"></script>
+<script>
+
+    var player;
+  
+    function onYouTubeIframeAPIReady(){
+  
+      player = new YT.Player('player',{
+  
+        width:'100%',
+  
+        videoId:'k26Pw2u0kxA',
+  
+        playerVars:{'autoplay':1,'playsinline':1,'controls': 0,'modestbranding':1},
+  
+        events:{ 'onReady':onPlayerReady }
+  
+      });
+  
+    }
+  
+    function onPlayerReady(e){
+  
+      e.target.mute();
+  
+      e.target.playVideo();
+  
+    }
+  
+  </script>
 <script>
 let vh = window.innerHeight * 0.01
 document.documentElement.style.setProperty('--vh', `${vh}px`)
@@ -148,16 +207,48 @@ window.addEventListener('resize', () => {
 });
 $(window).scroll(function(){
   let gnb = $('.main_nav')
-      scroll = $(window).scrollTop();
+      scroll = $(window).scrollTop()
+      goTop = $('.go_top');
 
   if (scroll >= 1200) { 
     gnb.addClass('on');
+    goTop.addClass('on');
   }
   else {
     gnb.removeClass('on');
+    goTop.removeClass('on');
   }
+
+  if( scroll >= $('#Letter').offset().top) {
+        $('.nav_items a').removeClass('active');
+        $('.nav_items a:eq(5)').addClass('active');
+    } else if( scroll >= $('#Intro').offset().top) {
+        $('.nav_items a').removeClass('active');
+        $('.nav_items a:eq(4)').addClass('active');
+    } else if( scroll >= $('#Schedule').offset().top) {
+        $('.nav_items a').removeClass('active');
+        $('.nav_items a:eq(3)').addClass('active');
+    } else if( scroll >= $('#Reward').offset().top) {
+        $('.nav_items a').removeClass('active');
+        $('.nav_items a:eq(2)').addClass('active');
+    } else if( scroll >= $('#Form').offset().top) {
+        $('.nav_items a').removeClass('active');
+        $('.nav_items a:eq(1)').addClass('active');
+    } else {
+        $('.nav_items a').removeClass('active');
+        $('.nav_items a:eq(0)').addClass('active');
+    }
+
+
 });
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel.gallery_p').owlCarousel({
+    loop:true,
+    margin:0,
+    dots:true,
+    nav:true,
+    items:1
+})
+$('.owl-carousel.gallery_m').owlCarousel({
     loop:true,
     margin:0,
     dots:true,
@@ -166,14 +257,30 @@ $('.owl-carousel').owlCarousel({
 })
 $(document).ready(function() {
     $('.policy_check').click(function() {
-    $('.pop_policy').removeClass('on');
-    $('body').css("overflow","auto");
-});
+        $('.pop_policy').removeClass('on');
+        $('body').css("overflow","auto");
+    });
 
-$('.more_view').click(function() {
-    $('.pop_policy').addClass('on');
-    $('body').css("overflow","hidden");
-});
+    $('.more_view').click(function() {
+        $('.pop_policy').addClass('on');
+        $('body').css("overflow","hidden");
+    });
+
+    $('.nav_btn').click(function() {
+        $(this).toggleClass('active');
+        $('.main_nav_m').toggleClass('active');
+        if ($(this).hasClass('active') === true) {
+            $('body').css("overflow","hidden");
+        } else {
+            $('body').css("overflow","auto");
+        }
+    });
+
+    $('.main_nav_m .nav_items a').click(function() {
+        $('.nav_btn').removeClass('active');
+        $('.main_nav_m').removeClass('active');
+            $('body').css("overflow","auto");
+    });
 
 });
 
@@ -217,20 +324,6 @@ $('.more_view').click(function() {
 //     }    
 // });
 
-// $('.nav_btn').click(function() {
-//     $(this).toggleClass('active');
-//     $('.main_nav_m').toggleClass('active');
-//     if ($(this).hasClass('active') === true) {
-//         $('body').css("overflow","hidden");
-//     } else {
-//         $('body').css("overflow","auto");
-//     }
-// });
-
-// $('.main_nav_m .nav_items a').click(function() {
-//     $('.nav_btn').removeClass('active');
-//     $('.main_nav_m').removeClass('active');
-//         $('body').css("overflow","auto");
 
 </script>
 </body>

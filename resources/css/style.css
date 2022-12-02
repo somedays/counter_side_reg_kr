@@ -196,3 +196,11 @@ input,button {font-family:'Pretendard';}
   .pop_policy_wrap .pop_body img {width:100%;}
   .pop_policy_wrap .pop_body .policy_check {top: 63.4%;left: 31.5%; width: 37%; height: 5.5%;}
 }
+
+@media (max-width:350px) {
+  .main_form form {zoom:.9;}
+}
+
+@media (max-width:320px) {
+  .main_form form {zoom:.7;}
+}

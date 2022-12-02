@@ -69,12 +69,12 @@ input,button {font-family:'Pretendard';}
 .main_reward .reward_complate .reward_item_area {display:none;}
 .main_reward .reward_complate span {position:absolute;left:50%;width:300px;height:420px;background-repeat:no-repeat;background-position:100% 0;display:none;}
 .main_reward .reward_complate span.complate {display:block;}
-.main_reward .reward_complate span:nth-child(1) {background-image:url(../img/reward_complete.webp);top: 342px;margin-left: -345px;}
-.main_reward .reward_complate span:nth-child(2) {background-image:url(../img/reward_complete.webp);top: 342px;margin-left: -10px;}
-.main_reward .reward_complate span:nth-child(3) {background-image:url(../img/reward_complete.webp);top: 342px;margin-left: 325px;}
-.main_reward .reward_complate span:nth-child(4) {background-image:url(../img/reward_complete.webp);top: 802px;margin-left: -94px;}
-.main_reward .reward_complate span:nth-child(5) {background-image:url(../img/reward_complete.webp);top: 802px;margin-left: 241px;}
-.main_reward .reward_complate span:nth-child(6) {background-image:url(../img/reward_complete.webp);top: 802px;margin-left: 576px;}
+.main_reward .reward_complate span.complate:nth-child(1) {background-image:url(../img/reward_complete.webp);top: 342px;margin-left: -345px;}
+.main_reward .reward_complate span.complate:nth-child(2) {background-image:url(../img/reward_complete.webp);top: 342px;margin-left: -10px;}
+.main_reward .reward_complate span.complate:nth-child(3) {background-image:url(../img/reward_complete.webp);top: 342px;margin-left: 325px;}
+.main_reward .reward_complate span.complate:nth-child(4) {background-image:url(../img/reward_complete.webp);top: 802px;margin-left: -94px;}
+.main_reward .reward_complate span.complate:nth-child(5) {background-image:url(../img/reward_complete.webp);top: 802px;margin-left: 241px;}
+.main_reward .reward_complate span.complate:nth-child(6) {background-image:url(../img/reward_complete.webp);top: 802px;margin-left: 576px;}
 
 .main_event {position:relative;margin:0 auto;width:100%;max-width:2500px;height:1154px;overflow:hidden;display:flex;justify-content:center;background:url(../img/bg_event.webp) 50% 0 no-repeat;}
 .main_event .event_list {display:flex;width:1778px;justify-content:space-between;margin-top:520px;}
